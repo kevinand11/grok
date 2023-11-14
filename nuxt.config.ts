@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     app: {
+        baseURL: '/grok',
         head: {
             title: 'Home',
             link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
