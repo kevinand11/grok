@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+	html {
+		@apply text-[14.5px] md:text-[16px] lg:text-[16px] text-light;
+	}
+
+	body {
+		@apply h-screen w-screen overflow-y-auto
+	}
+}
