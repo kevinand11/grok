@@ -13,11 +13,15 @@ module.exports = {
 		extend: {
 			colors: {
 				light: '#FFFFFF',
-				dark: '#000000'
+				gray: '#777777',
+				dark: '#000000',
+				blue: '#A3D9F6',
+				red: '#FF4040'
 			}
 		},
 		fontFamily: {
-			sans: ['Manrope', 'sans-serif']
+			sans: ['Pacifica', 'sans-serif'],
+			fahkwang: ['Fahkwang', 'sans-serif']
 		}
 	},
 	plugins: [],

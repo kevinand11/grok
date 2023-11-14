@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
     app: {
         head: {
-            title: 'TATO',
+            title: 'Home',
             link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
         }
     },
