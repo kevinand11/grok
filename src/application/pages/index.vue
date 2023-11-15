@@ -42,7 +42,7 @@
 
 				Contract Address: {{ ContractAddress }} <br>
 			</p>
-			<img src="@/assets/images/feature.webp" class="mt-20" alt="">
+			<img src="@/assets/images/twitter.jpg" class="mt-20" alt="">
 		</div>
 	</div>
 	<div class="bg-dark text-light p-12 lg:p-20">
