@@ -18,9 +18,7 @@
 	}
 
 	body {
-		@apply h-screen w-screen overflow-y-auto bg-dark;
-		background-image: url('/giphy.gif');
-		background-size: cover;
+		@apply h-screen w-screen overflow-y-auto bg-dark text-light;
 	}
 
 	.icon {
