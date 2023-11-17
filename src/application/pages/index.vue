@@ -5,7 +5,7 @@
 			<div>
 				<img src="~/assets/images/full-logo.png" class="h-10" alt="">
 			</div>
-			<span class="hidden lg:hidden text-2xl font-fahkwang overflow-x-auto">{{ ContractAddress }}</span>
+			<span class="hidden lg:inline text-2xl font-fahkwang overflow-x-auto">{{ ContractAddress }}</span>
 			<div class="flex items-center gap-4">
 				<a :href="TwitterLink" target="_blank" class="icon">
 					<i :class="PrimeIcons.TWITTER" />
@@ -41,7 +41,7 @@
 
 				Twitter: <a :href="TwitterLink" target="_blank">{{ TwitterLink }}</a> <br>
 
-				Contract Address: {{ ContractAddress }} <br>
+				{{ ContractAddress }} <br>
 			</p>
 			<img src="~/assets/images/twitter.jpg" class="mt-20" alt="">
 		</div>
