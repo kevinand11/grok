@@ -1,8 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     app: {
-        // @ts-ignore
-        baseURL: process.env.NODE_ENV === 'production' ? '/grok' : '/',
         head: {
             title: 'Home',
             link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
