@@ -35,7 +35,7 @@
 			</p>
 
 			<p class="mt-20">
-				Presale: PINKSALE COMING SOON <br>
+				STEALTH LAUNCH: TBA <br>
 
 				Telegram: <a :href="TelegramLink" target="_blank">{{ TelegramLink }}</a> <br>
 
